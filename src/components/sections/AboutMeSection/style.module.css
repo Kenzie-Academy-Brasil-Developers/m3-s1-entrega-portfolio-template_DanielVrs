@@ -1,0 +1,26 @@
+
+
+.sectionAboutMe div{
+	margin-top: 6.8125rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5625rem;
+	scroll-behavior: smooth;
+}
+
+
+@media ( min-width: 720px){
+
+	.sectionAboutMe h2{
+		min-width: max-content;
+	}
+	
+	.sectionAboutMe div {
+		flex-direction: row;
+		align-items: start;
+		justify-content: space-between;
+		gap: 70px;
+		margin-bottom: 100px;
+	}
+	
+}

@@ -1,0 +1,47 @@
+
+
+.sectionbanner div{
+	display: flex;
+	flex-direction: column;
+}
+
+.sectionbanner span {
+	margin-bottom: 0.5625rem;
+}
+
+.sectionbanner h1, 
+.sectionbanner p {
+	margin-bottom: 2.3125rem;
+}
+
+
+
+.sectionbanner button {
+	padding: 0;
+	max-width: 8.125rem;
+	margin-bottom: 3.9375rem;
+}
+
+.sectionbanner img {
+	max-width: 310px;
+	align-self: center;
+}
+
+
+@media ( min-width: 720px){
+	
+	.sectionbanner> div {
+		flex-direction: row;
+		gap: 50px;
+	}
+
+	.containerText{
+		width: 50%;
+	}
+	.sectionbanner img {
+		max-width: 438px;
+		width: 50%;
+		align-self: center;
+	}
+	
+}

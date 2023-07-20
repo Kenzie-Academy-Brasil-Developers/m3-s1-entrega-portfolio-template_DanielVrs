@@ -1,0 +1,47 @@
+
+
+.sectionProjects {
+	margin-top: 5.625rem;
+	scroll-behavior: smooth;
+}
+
+.sectionProjects h2{
+	margin-bottom: 1.5625rem;
+}
+.sectionProjects ul {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5625rem;
+}
+
+.sectionProjects li {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem;
+	border: 1px solid var(--color-border);
+	border-radius: 25px;
+}
+
+.sectionProjects li > div{
+	padding: 13px;
+	display: flex;
+	flex-direction: column;
+	gap: 1.0625rem;
+}
+
+.sectionProjects img {
+	max-height: 2.375rem;
+}
+
+
+@media ( min-width: 720px){
+	
+	.sectionProjects ul{
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.sectionProjects li{
+		min-width: 435px;
+	}
+}
